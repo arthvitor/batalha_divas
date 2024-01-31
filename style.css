@@ -1,0 +1,241 @@
+/* importando fonts */
+@import url("https://use.typekit.net/mwp1yqg.css");
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+}
+
+/* HEADER */
+header {
+  color: white;
+  margin: 2% 2% 1% 2%;
+}
+
+.intro-materia {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+header img {
+  width: 90%;
+  border-radius: 2%;
+  z-index: 0;
+}
+
+header h1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  font-family: termina, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  font-size: 3vw;
+  line-height: 100%;
+  z-index: 1;
+}
+
+header h2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 75%;
+  left: 50%;
+  width: 50%;
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5vw;
+  text-align: center;
+  line-height: 100%;
+}
+
+/* MAIN */
+
+main {
+  color: white;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 10% 25% 10% 25%;
+  font-size: 2vw;
+}
+
+main h3 {
+  font-size: 1.5vw;
+}
+
+/* scrolly */
+#scrolly {
+  font-family: sans-serif;
+}
+
+#sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  width: 110%;
+  min-height: 100vh; /* Defina uma altura mínima */
+  z-index: 0;
+  justify-content: center;
+  align-items: center;
+  overflow: visible; /* Evite que o conteúdo seja cortado */
+}
+
+.grafico-story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step {
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 1);
+  height: 100vh;
+  height: 100lvh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.step p {
+  padding: 2em;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  transform: translate(95px, -319px);
+}
+
+/* ESTILO DO GRÁFICO */
+
+.div-geral-g1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.div_coluna1, .divcoluna2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.div-linha-g1 {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.img-grafico {
+  width: 35px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid #363537;
+}
+
+.div-barra {
+  background: #b247ff;
+  border-radius: 5px;
+  width: 0;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.span-espaco {
+  margin-left: 1px;
+  color: white;
+}
+
+.texto-barra {
+  width: 50px;
+}
+
+.p-faixa{
+  display: relative;
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 300px;
+  color: white;
+  font-size: 80%;
+}
+
+iframe {
+  border: none;
+  color: transparent;
+  background-color: transparent;
+}
+
+.tooltip-spotify {
+  position: relative;
+  display: inline-block;
+  border: none;
+  z-index: 1;
+}
+
+.tooltip-conteudo {
+  visibility: hidden;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  background-color: transparent;
+  transform: auto;
+}
+
+.div-linha-g1:hover .tooltip-conteudo {
+  visibility: visible;
+}
+
+/* Gráfico SVG */
+svg {
+  width: 650px;
+  height: 100px;
+  z-index: 0;
+}
+
+.tooltip-conteudo-g2 {
+  visibility: visible;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  background-color: transparent;
+}
+
+/* Estilos para a legenda */
+.legenda {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Estilos para as bolinhas coloridas */
+.bolinha {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.legenda p {
+  margin-right: 10px;
+  font-size: 20px;
+}

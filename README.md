@@ -1,3 +1,5 @@
+![benestic_weaver](https://github.com/arthvitor/batalha_divas/blob/main/img/CAPA.png?raw=true)
+
 # A Batalha de Músicas das Turnês de Taylor Swift e Beyoncé
 
 Esse repositório é uma documentação de código para a realização de uma reportagem de Jornalismo de Dados sobre uma análise de músicas da Beyoncé e Taylor Swift, usando a API do Spotify. 
